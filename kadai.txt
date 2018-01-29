@@ -1,0 +1,18 @@
+>> ex1();
+easy combination by NN
+認識率は0.725000
+difficult combination by NN
+認識率は0.720000
+
+easy combination by Alex
+経過時間は 0.344662 秒です。
+accuracy: 0.965000
+difficult combination by Alex
+経過時間は 0.395620 秒です。
+accuracy: 0.905000
+easy combination by VGG-16
+経過時間は 0.317935 秒です。
+accuracy: 0.960000
+difficult combination by VGG-16
+経過時間は 0.380427 秒です。
+accuracy: 0.955000
