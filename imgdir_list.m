@@ -1,9 +1,10 @@
-function X=imgdir_list()
-list=dir('imgdir2/');
+function X=imgdir_list(dirname)
+% dirname = 'imgdir/'
+list=dir(dirname);
 name={};
 for i=1:size(list)
 if(strfind(list(i).name,'.jpg'));
-im=strcat('imgdir2/',list(i).name);
+im=strcat(dirname,list(i).name);
 name={name{:} im};
 end
 end
